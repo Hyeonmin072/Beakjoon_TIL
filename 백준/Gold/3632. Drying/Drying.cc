@@ -25,13 +25,13 @@ int main() {
     }
     scanf("%d", &K);
     
-    if (K == 1) {
+
+    
+    K--;
+    if (K == 0) {
         printf("%d\n", top);
         return 0;
     }
-    
-    K--;
-    
     int L = 0;
     int R = top;
     int result = top;
